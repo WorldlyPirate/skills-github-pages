@@ -1,3 +1,3 @@
 This is my blog.
 
-Write for fun.
+I write for fun.

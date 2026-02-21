@@ -1,2 +1,16 @@
-theme: minima
 title: reading blog
+description: "My reading blog"
+theme: minima
+
+# 分页配置
+plugins:
+  - jekyll-paginate
+
+paginate: 5          # 每页显示几篇文章
+paginate_path: "/page:num/" # 分页链接格式
+
+# 其他可选配置
+minima:
+  date_format: "%b %-d, %Y"
+  social_links:
+    - { platform: github, user_name: WorldlyPirate }

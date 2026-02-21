@@ -1,6 +1,9 @@
 title: Reading Blog
 theme: minima
 
+baseurl: "/skills-github-pages" 
+url: "https://WorldlyPirate.github.io"
+
 # 插件必须只包含 GitHub Pages 官方支持的
 plugins:
   - jekyll-paginate
@@ -9,3 +12,4 @@ plugins:
 
 paginate: 5
 paginate_path: "/page:num/"
+

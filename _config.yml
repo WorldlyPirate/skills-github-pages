@@ -1,22 +1,11 @@
-title: "Reading Blog"
-remote_theme: "mmistakes/minimal-mistakes" # 换成最强的主题
-minimal_mistakes_skin: "default" # 可选皮肤: "air", "aqua", "contrast", "dirt", "mint", "sunrise"
+title: Reading Blog
+theme: minima
 
-# 插件
+# 插件必须只包含 GitHub Pages 官方支持的
 plugins:
   - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
+  - jekyll-seo-tag
 
-# 分页
 paginate: 5
 paginate_path: "/page:num/"
-
-# 首页配置
-index_archive:
-  type: post
-  paginate: true
-
-# 搜索配置 (主题自带)
-search: true

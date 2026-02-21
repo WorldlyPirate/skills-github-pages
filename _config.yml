@@ -1,11 +1,22 @@
-title: reading blog
-theme: minima
+title: "Reading Blog"
+remote_theme: "mmistakes/minimal-mistakes" # 换成最强的主题
+minimal_mistakes_skin: "default" # 可选皮肤: "air", "aqua", "contrast", "dirt", "mint", "sunrise"
 
-# 插件配置（核心：不能写错位置）
+# 插件
 plugins:
   - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
 
-# 分页逻辑（注意：kramdown 这一行很重要，有时能解决渲染问题）
-markdown: kramdown
+# 分页
 paginate: 5
 paginate_path: "/page:num/"
+
+# 首页配置
+index_archive:
+  type: post
+  paginate: true
+
+# 搜索配置 (主题自带)
+search: true

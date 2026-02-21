@@ -1,4 +1,7 @@
 ---
+layout: home
+author_profile: true
+paginate: true
 title: Welcome to my blog
 ---
 

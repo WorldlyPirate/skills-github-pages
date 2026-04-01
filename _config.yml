@@ -1,12 +1,3 @@
 title: "Reading Blog"
-baseurl: "/skills-github-pages"
-url: "https://WorldlyPirate.github.io"
 
-# 强制使用 minima
 theme: minima
-
-plugins:
-  - jekyll-paginate
-
-paginate: 5
-paginate_path: "/page:num/"
